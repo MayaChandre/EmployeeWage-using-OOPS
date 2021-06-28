@@ -1,10 +1,10 @@
 package com.bridgelabz;
 
-public class EmployeeWageCompuataionUsingOOPS
-{
+public class EmployeeWage {
+
 	public static void main(String args[])
 	{
-		EmployeeWageCompuataionUsingOOPS e = new EmployeeWageCompuataionUsingOOPS();
+		EmployeeWage e = new EmployeeWage();
 		e.employeeWage();	
 	}
 	void employeeWage() {
@@ -40,4 +40,3 @@ public class EmployeeWageCompuataionUsingOOPS
 		System.out.println("\nMonthly wage is " + monthly_total_wage);
 	}
 }
-					
