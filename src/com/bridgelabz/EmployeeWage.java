@@ -28,7 +28,6 @@ public class EmployeeWage {
         int wage_per_hr = s.nextInt();
         EmployeeWage e = new EmployeeWage(companyName, max_working_hrs, days_in_month, wage_per_hr);
         e.employeeWage();
-
     }
 
     // Checking employee attendance and paying salary based on working hours
@@ -59,7 +58,11 @@ public class EmployeeWage {
             monthly_total_wage = monthly_total_wage + daily_wage_array[j];
         }
         System.out.println("\nMonthly wage is " + monthly_total_wage);
+	{
+		
+	}
+    
     }
-
+	
 }
 			
